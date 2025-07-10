@@ -1,0 +1,6 @@
+2025-07-09 21:36:28,395 - INFO - Arguments parsed: Namespace(input='data/stock_data_cleaned.csv', output='data/stock_data_features.csv')
+2025-07-09 21:36:28,396 - INFO - Loading cleaned data from data/stock_data_cleaned.csv
+2025-07-09 21:36:28,428 - INFO - Initial rows: 501
+2025-07-09 21:36:28,440 - INFO - Engineering features per TICKER
+2025-07-09 21:36:28,449 - INFO - Rows after feature engineering and dropping NaNs: 491
+2025-07-09 21:36:28,480 - INFO - Features saved to data/stock_data_features.csv
