@@ -1,0 +1,10 @@
+2025-07-07 21:40:39,370 - INFO - Arguments parsed: Namespace(input='data/stock_data.csv', output='data/stock_data_cleaned.csv')
+2025-07-07 21:40:39,371 - INFO - Reading raw data from data/stock_data.csv
+2025-07-07 21:40:39,388 - INFO - Initial rows: 501
+2025-07-07 21:40:39,389 - INFO - Parsing DATE column to datetime
+2025-07-07 21:40:39,399 - INFO - Dropping rows with missing values
+2025-07-07 21:40:39,401 - INFO - Rows after dropping NAs: 501
+2025-07-07 21:40:39,403 - INFO - Filtering out invalid price data
+2025-07-07 21:40:39,405 - INFO - Rows after filtering negatives/zeros: 501
+2025-07-07 21:40:39,405 - INFO - Sorting by TICKER and DATE
+2025-07-07 21:40:39,433 - INFO - Cleaned data saved to data/stock_data_cleaned.csv
